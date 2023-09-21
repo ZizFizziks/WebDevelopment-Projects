@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <header>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </header>
+  <body>
+
+    <section id="header">
+      <h1 id="title">Random Survey Form</h1>
+      <p id="description">Fill out this random Survey Form and feel great about it!</p>
+    </section>
+
+    <section id="form">
+      <form method="post" id="survey-form">
+      <h2>Personal Data</h2>
+        <fieldset>
+          <label id="name-label" for="name">Name </label>
+          <input id="name" type="text" placeholder="People usually lie here" required>
+          <label id="email-label" for="email">Email </label>
+          <input id="email" type="email" placeholder="Definitely use your spam mail for this one" required>
+          <label id="number-label" for="age">Age </label>
+          <input id="number" type="number" min="12" max="120" placeholder="Just don't get to cocky here" required>
+        </fieldset>
+      <h2>Random Questions</h2>
+        <fieldset>
+          <label id="dropdown-label" for="dropdown">What is the most annoying thing to be asked? </label>
+          <select id="dropdown" required>
+            <option value="">(select one)</option>
+            <option value="1">Name</option>
+            <option value="2">Email</option>
+            <option value="3">Age</option>
+          </select>
+          <label id="text-label" for="text">Want to tell a story? Do it here </label>
+          <textarea id="text" placeholder="Write something beautiful"></textarea>
+          <label id="radio-one">Did you enjoy the survey? Please be honest</label>  
+            <label><input id="likeit" type="radio" name="enjoyment" value ="1" class="inline" required/> I liked it! </label>
+            <label><input id="loveit" type="radio" name="enjoyment" value ="1" class="inline" /> Love it! </label> 
+            <label><input id="enjoy" type="radio" name="enjoyment" value ="1" class="inline" /> It was pure joy filling it out </label>
+            <label>Some random checkboxes before the end</label>
+            <label><input type="checkbox" class="inline" value="1"> Okay,</label>
+            <label><input type="checkbox" class="inline" value="2"> this</label>
+            <label><input type="checkbox" class="inline" value="3"> is</label>
+            <label><input type="checkbox" class="inline" value="4"> truly</label>
+            <label><input type="checkbox" class="inline" value="5"> random</label>    
+        </fieldset>
+        <input id="submit" type="submit" value="Submit">
+      </form>
+    </section>
+
+  </body>
+  <footer>
+  </footer>
+</html>

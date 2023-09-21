@@ -1,0 +1,91 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://wallpaperaccess.com/full/1567679.jpg);
+  color: #ffe6e6;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1, h2, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  margin: 0.5em auto;
+  margin-bottom: 0em;
+}
+
+
+fieldset {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+label {
+  margin: 1em 15.5%;
+  margin-bottom: 0px;
+  display: block;
+}
+
+input, select, textarea {
+  margin: 0.5em auto;
+  display: block;
+  width: 70%;
+  background-color: rgba(150,60,60,0.3);
+  border: 1px solid #0a0a23;
+  color: #dddddd;
+  border-radius: 3px;
+}
+
+select option {
+  background-color: rgba(150,60,60,1);
+}
+
+#header {
+  margin: 3em;
+}
+
+#form {
+  background-color: rgba(0, 0, 0, 0.85);
+  margin-right: 7%;
+  margin-left: 7%;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+}
+
+#description {
+  margin-top: -25px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+input[type=radio] {
+  margin-left: 5%;
+}
+
+input[type=checkbox] {
+  margin-left: 5%;
+}
+
+input[type=submit] {
+  background-color: rgba(90,30,30,1);
+  cursor: pointer;
+  margin: 30px auto;
+  width: 400px;
+  height: 35px;
+}
